@@ -55,7 +55,7 @@ import com.android.internal.app.IVoiceInteractor;
 import java.util.List;
 
 /**
- * 与ActivityManager服务进行交流的系统私用API，这使得来自应用的调用，让ActivityManger去做。
+ * 与ActivityManager服务进行交流的系统私用API，这使得来自应用的调用，转到ActivityManger去做。
  * System private API for talking with the activity manager service.  This
  * provides calls from the application back to the activity manager.
  *

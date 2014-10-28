@@ -61,7 +61,7 @@ public abstract class ActivityManagerNative extends Binder implements IActivityM
     /**
      * Cast a Binder object into an activity manager interface, generating
      * a proxy if needed.
-     *  【汉】把一个Binder对象转化成ActivityManager接口，如果需要，生成一个代理。
+     *  【汉】把一个Binder对象转化成ActivityManager接口，如果需要，生成一个代理(proxy)。
      */
     static public IActivityManager asInterface(IBinder obj) {
         if (obj == null) {

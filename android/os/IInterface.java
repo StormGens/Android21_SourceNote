@@ -19,7 +19,7 @@ package android.os;
 /**
  * Base class for Binder interfaces.  When defining a new interface,
  * you must derive it from IInterface.
- * 【汉】Binder接口的基类，当定义一个新的（Binder）接口时候，必须从IInterface定义它。
+ * 【汉】Binder接口的基类，当定义一个新的（Binder）接口时候，你必须从IInterface定义它。
  */
 public interface IInterface
 {
